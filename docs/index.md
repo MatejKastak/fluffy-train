@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # YARA Language Server
 
 [Language server](https://microsoft.github.io/language-server-protocol/) for
