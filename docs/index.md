@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# YARA Language Server
 
-You can use the [editor on GitHub](https://github.com/MatejKastak/fluffy-train/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+[Language server](https://microsoft.github.io/language-server-protocol/) for
+[YARA](https://yara.readthedocs.io/en/stable/) language.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+:rocket: Features:
+- Code completion of all available modules (including function parameters)
+- Function documentation for hovers and code completion
+- Opinionated code formatting
+- Signature help
+- Linting
+- Go-to definition and references
+- Symbol highlighting under the cursor
+- Debugging? Stay tuned...
+- ...
 
-### Markdown
+![Showcase](/assets/yls.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+For more information, check out:
+- [Blog post](https://engineering.avast.io/yls-first-step-towards-yara-development-environment/)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MatejKastak/fluffy-train/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+:snake: Minimal supported version of Python is `3.8`.
