@@ -6,17 +6,17 @@ nav_order: 1
 This document will guide you through installation of **yls** onto your system.
 The whole process is divided into 2 parts:
 
-1) `yls` binary installation
-2) Editor configuration
+1. `yls` binary installation
+2. Editor configuration
 
 For a quick tutorial checkout the following video:
 https://user-images.githubusercontent.com/26434056/183893630-b3474a51-9a44-4998-a7a6-10fb87da5139.mp4
 
-## :one: Installation
+## Installation
 
 The goal of this step is to ensure you have yls installed on your machine.
 
-- you must ensure that you have a supported python version: **python 3.8+** :snake:
+- you must ensure that you have a supported python version: **python 3.8+**
 - you must ensure that you have [requirements](https://github.com/VirusTotal/yara-python#installation) to install `yara-python`
 - you must ensure that you have [requirements](https://yaramod.readthedocs.io/en/latest/installation.html#requirements) to install `Yaramod` on Linux (Windows packages are pre-built wheels)
 
@@ -67,7 +67,7 @@ pip install -U yls-yara
 realpath env/bin/yls
 ```
 
-## :two: Editor configuration
+## Editor configuration
 
 The goal of this step is to configure your favorite editor to support yls. This
 procedure is typically required only for the first time and the new updates are
@@ -96,10 +96,12 @@ Plug 's3rvac/vim-syntax-yara'
 
 #### [coc.vim](https://github.com/neoclide/coc.nvim)
 
+vimrc:
 ```vim-script
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 ```
 
+coc-settings.json:
 ```json
 {
 	"languageserver": {

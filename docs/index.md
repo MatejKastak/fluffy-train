@@ -3,7 +3,7 @@
 [Language server](https://microsoft.github.io/language-server-protocol/) for
 [YARA](https://yara.readthedocs.io/en/stable/) language.
 
-:rocket: Features:
+Features:
 - Code completion of all available modules (including function parameters)
 - Function documentation for hovers and code completion
 - Opinionated code formatting
@@ -19,4 +19,4 @@
 For more information, check out:
 - [Blog post](https://engineering.avast.io/yls-first-step-towards-yara-development-environment/)
 
-:snake: Minimal supported version of Python is `3.8`.
+Minimal supported version of Python is `3.8`.
