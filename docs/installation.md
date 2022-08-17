@@ -10,7 +10,10 @@ The whole process is divided into 2 parts:
 2. Editor configuration
 
 For a quick tutorial checkout the following video:
-https://user-images.githubusercontent.com/26434056/183893630-b3474a51-9a44-4998-a7a6-10fb87da5139.mp4
+
+<video width="320" height="240" controls>
+    <source src="https://user-images.githubusercontent.com/26434056/183893630-b3474a51-9a44-4998-a7a6-10fb87da5139.mp4" type="video/mp4">
+</video>
 
 ## Installation
 
