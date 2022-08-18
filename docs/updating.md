@@ -4,7 +4,7 @@ nav_order: 2
 ---
 
 **If you don't have YLS installed yet. Please follow the installation steps
-described [here]({% link installation.md %}) instead.**
+described [here]({{ site.baseurl }}{% link installation.md %}) instead.**
 
 This document will guide how to update your `yls` installation.
 
